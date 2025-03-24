@@ -206,7 +206,7 @@ void CCalculatorDlg::OnBnClickedButtonSquare()
 
 	num = num * num;
 
-	//  유효 숫자만 남기도록 변환 TEST
+	//  유효 숫자만 남기도록 변환 
 	CString resultStr;
 	resultStr.Format(_T("%.10g"), num);
 	
